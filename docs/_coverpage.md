@@ -11,6 +11,7 @@
 <!-- ![](_media/bg.png) -->
 
 <!-- [GitHub](https://github.com/docsifyjs/docsify/) -->
+[访问系统](https://bk.vastsum.com)
 [开始阅读](/README)
 
 <!-- 背景色 -->
