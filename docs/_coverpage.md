@@ -12,7 +12,7 @@
 
 <!-- [GitHub](https://github.com/docsifyjs/docsify/) -->
 [访问系统](https://bk.vastsum.com)
-[开始阅读](/README)
+[开始阅读](/guide)
 
 <!-- 背景色 -->
 <!-- ![color](#F8F8F8) -->
