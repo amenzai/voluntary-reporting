@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>高考志愿填报指南</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
+</head>
+
+<body>
+  <!-- <nav>
+    <a href="#/">EN</a>
+    <a href="#/zh-cn/">中文</a>
+  </nav> -->
+  <div id="app">加载中......</div>
+  <script>
+    window.$docsify = {
+      name: '访问报考管家',
+      // repo: 'amenzai/myDiary',
+      loadSidebar: true, // 加载侧边栏，从当前目录加载 _sidebar，如果配置了下面这条，则统一用根目录的 _sidebar
+      // alias: {
+      //   '/.*/_sidebar.md': '/_sidebar.md'
+      // },
+      subMaxLevel: 2, // 侧边栏展示几级目录
+      loadNavbar: false, // 配置导航   _navbar.md 加载逻辑和 sidebar 文件一致，从每层目录下获取。例如当前路由为 /zh-cn/custom-navbar 那么是从 /zh-cn/_navbar.md 获取导航栏。
+      coverpage: true,
+      coverpage: ['/', '/zh-en/'], // 配置封面
+      // onlyCover: true,
+      // maxLevel: 3, // 默认情况下会抓取文档中所有标题渲染成目录，可配置最大支持渲染的标题层级。
+      auto2top: true, // 切换页面后是否自动跳转到页面顶部。
+      // logo: './logo.png',
+      nameLink: {
+        '/zh-en/': 'https://amenzai.me',
+        '/': 'https://bk.vastsum.com'
+      },
+      // 入口文件改为 /home.md
+      // homepage: 'home.md',
+      // basePath: '/path/',  // 档加载的根路径，可以是二级路径或者是其他域名的路径
+      themeColor: '#409eff', // 替换主题色
+      // autoHeader: true, // auto add title
+      mergeNavbar: true, // mobile handle
+      formatUpdated: '{MM}/{DD} {HH}:{mm}',
+      // formatUpdated: function (time) {
+      //   // ...
+
+      //   return time;
+      // },
+      // routerMode: 'history',
+      notFoundPage: true,
+      search: {
+        maxAge: 1000, // 过期时间，单位毫秒，默认一天
+        // paths: ['/', '/zh-en/'], // or 'auto'
+        // paths: [],
+        // placeholder: 'Type to search',
+
+        // 支持本地化
+        placeholder: {
+          '/': '搜索',
+          // '/zh-en/': 'Type to search'
+        },
+
+        // noData: 'No Results!',
+
+        // 支持本地化
+        noData: {
+          '/': '找不到结果',
+          '/zh-en/': 'No Results'
+        },
+
+        // 搜索标题的最大程级, 1 - 6
+        depth: 6
+      }
+    }
+    if (typeof navigator.serviceWorker !== 'undefined') {
+      navigator.serviceWorker.register('sw.js')
+    }
+  </script>
+  <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/search.js"></script>
+  <!-- <script src="//unpkg.com/docsify-copy-code"></script> -->
+  <!-- <script src="//unpkg.com/docsify/lib/plugins/emoji.js"></script> -->
+  <!-- 外链脚本 - External Script -->
+  <!-- <script src="//unpkg.com/docsify/lib/plugins/external-script.js"></script> -->
+
+  <!-- <script src="//unpkg.com/docsify/lib/plugins/zoom-image.js"></script> -->
+
+  <!-- markdown 高亮 -->
+  <!-- <script src="//unpkg.com/prismjs/components/prism-bash.min.js"></script> -->
+  <!-- <script src="//unpkg.com/prismjs/components/prism-jsx.min.js"></script> -->
+</body>
+
+</html>
