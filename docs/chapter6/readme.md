@@ -20,4 +20,4 @@
 
 ---
 
-[访问报考管家](https://bk.vastsum.com)查询所有信息
+> [访问报考管家](http://bk0038.vastsum.com)查询所有信息

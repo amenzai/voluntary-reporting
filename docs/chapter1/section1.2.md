@@ -1,6 +1,6 @@
 # 识别各类高考分数线
 
-[点击查询各地高考历年批次线](https://bk.vastsum.com/#/pages/batch-line/batch-line)
+[点击查询各地高考历年批次线](http://bk0038.vastsum.com/#/pages/batch-line/batch-line)
 
 
 ## 录取分数线
